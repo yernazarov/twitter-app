@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6ecf0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #1da1f2;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+  }
+  
+  .feed,
+  .profile,
+  .post {
+    background-color: white;
+    border: 1px solid #e1e8ed;
+    margin-top: 10px;
+    padding: 15px;
+  }
+  
+  .post {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1991db;
+  }
+  
+  .link {
+    color: #1da1f2;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
